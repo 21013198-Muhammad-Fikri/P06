@@ -76,6 +76,7 @@ public class CalculateTest {
 			cal.divide(a,c); 
 			fail("Expected an IllegalArgumentException to be thrown"); 
 		} 
+		
 		catch (IllegalArgumentException e){ 
 			assertEquals("Division by zero is not supported", e.getMessage()); 
 		} 
